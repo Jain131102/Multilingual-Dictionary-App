@@ -45,7 +45,7 @@ class State:
                 "web_access": False
             }
             headers = {
-                "x-rapidapi-key": "e0bd431f16msh23dd96ed515989dp1ac9cfjsn07b393899987",
+                "x-rapidapi-key": "use your api key from rapid api site",
                 "x-rapidapi-host": "chatgpt-42.p.rapidapi.com",
                 "Content-Type": "application/json",
                 "X-RapidAPI-Mock-Response": "200"
