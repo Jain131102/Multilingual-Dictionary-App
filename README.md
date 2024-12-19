@@ -74,5 +74,8 @@ This file contains a list of supported languages for definition retrieval.
 
 The Multilingual Dictionary App is a powerful tool for language learners and anyone interested in understanding words in various languages. By leveraging OpenAI's capabilities, it provides quick and accurate definitions, enhancing communication across language barriers.
 
-   
+
+## License
+
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
 
