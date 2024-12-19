@@ -20,3 +20,59 @@ To run this application, you need the following:
 ## Installation
 
 1. **Install Required Libraries**:
+   ```bash
+    pip install streamlit requests
+   ```
+
+2. **Get OpenAI API Key**:
+- Sign up at [RapidAPI](https://rapidapi.com/) and subscribe to the ChatGPT API.
+- Obtain your API key.
+
+3. **Set Environment Variables** (optional):
+- You can set your API key as an environment variable for security:
+  ```bash
+  export RAPIDAPI_KEY='your_api_key'
+  ```
+
+## Usage
+
+1. Save the provided code into a file named `app.py`.
+2. Run the application:
+   ```bash
+   streamlit run app.py
+   ```
+3. Open your web browser and navigate to the local URL provided by Streamlit (usually `http://localhost:8501`).
+
+## Code Structure
+
+### `app.py`
+
+This is the main application file that contains:
+
+- **State Class**: Manages the state of user input and selected language.
+- **get_meaning() Method**: Sends a request to the OpenAI API to get the meaning of the entered text.
+- **set_text() and set_language() Methods**: Update the state with user inputs.
+- **main() Function**: Configures Streamlit settings and handles user interactions.
+
+### `languages.py`
+
+This file contains a list of supported languages for definition retrieval.
+
+
+## Example Usage
+
+1. Enter a word or phrase in the text area.
+2. Select a language from the dropdown list.
+3. Click on "Get Meaning" to retrieve the definition.
+
+## Troubleshooting
+
+- Ensure that your API key is correct and has not expired.
+- Check your internet connection if you encounter issues with API requests.
+
+## Conclusion
+
+The Multilingual Dictionary App is a powerful tool for language learners and anyone interested in understanding words in various languages. By leveraging OpenAI's capabilities, it provides quick and accurate definitions, enhancing communication across language barriers.
+
+   
+
