@@ -21,7 +21,7 @@ To run this application, you need the following:
 
 1. **Install Required Libraries**:
    ```bash
-    pip install streamlit requests
+    pip install -r requirements.txt
    ```
 
 2. **Get OpenAI API Key**:
